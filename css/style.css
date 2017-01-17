@@ -1,6 +1,6 @@
 body {
     background-color: rgb(28, 25, 25);
-
+    font-size: 20px;
 }
 
 main {
@@ -14,49 +14,52 @@ main {
 #presentation {
     background-color: white;
     padding-left: 1em;
-    width: 481px;
-    height: 157px;
+    display: flex;
+    text-align: justify;
 }
 
 #presentation h2 {
     color: #444444;
-    padding-top: 0.5em;
-    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 30px;
 
 }
+#mtr {
+    display: flex;
+    text-align: justify;
+    background-color: white;
+    padding-left: 1em;
+}
 
-#presentation h3 {
+#mtr h3 {
     color: #888888;
-    float: left;
-    width: 50%;
+    padding-right: 1em;
+    font-size: 30px;
 }
 
-#presentation p {
+#mtr p {
     color: #CCCCCC;
-    float: left;
-    width: 50%;
 }
 
 #contact {
     background-color: #eaecef;
-    width: 481px;
+    width: ;
     height: 66px;
-    margin: 0px 0px;
+    display: flex;
+    padding-left: 1em;
+    text-align: justify;
 }
 
 a {
     color: #45aacc;
-    width: 50%;
-    float:left;
-    height: 100%;
-    padding-left: 1em;
+
 
 }
 
 #tel {
     background-color: #eaecef;
     color: #5F6469;
-    float:left;
-    width: 40%;
-    height: 100%;
+    text-align: justify;
+    padding-left: 10em;
 }
