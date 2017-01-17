@@ -1,29 +1,62 @@
 body {
-    background-color: rgb(28, 25, 25)
+    background-color: rgb(28, 25, 25);
+
 }
 
-div {
-    background-color: rgb(199, 219, 183)
+main {
+    background-color: #eff3f4;
+    margin: 128px 270px 130px 265px;
+    padding: 77px 125px 118px 125px;
+    width: 728px;
+    height: 419px;
 }
 
 #presentation {
     background-color: white;
+    padding-left: 1em;
+    width: 481px;
+    height: 157px;
+}
+
+#presentation h2 {
+    color: #444444;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+
 }
 
 #presentation h3 {
     color: #888888;
-    
+    float: left;
+    width: 50%;
 }
+
 #presentation p {
-    color: #888888;
+    color: #CCCCCC;
+    float: left;
+    width: 50%;
 }
 
 #contact {
-    display: inline-block;
-    width: 100%;
+    background-color: #eaecef;
+    width: 481px;
+    height: 66px;
+    margin: 0px 0px;
 }
 
-#contact p {
+a {
+    color: #45aacc;
     width: 50%;
+    float:left;
+    height: 100%;
+    padding-left: 1em;
+
+}
+
+#tel {
     background-color: #eaecef;
+    color: #5F6469;
+    float:left;
+    width: 40%;
+    height: 100%;
 }
